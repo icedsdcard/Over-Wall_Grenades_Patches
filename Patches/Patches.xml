@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Weapons Expanded - Non-Lethal</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VWE_TearGasGrenade"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Save Our Ship 2</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeMechanite"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Rimsenal Faction Pack - Federation</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AD_FedPlasmaGrenades"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>KEP:Ionic Armoury (Continued)</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeIonic"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Firefoam Grenades (Continued)</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeExtinguisher"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>ExGT Bio Mechanoid</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BM_RKG"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+<!--
+
+visual space
+
+-->
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>GHJ's Grenade Pack</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJGrenadeDefensive"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJGrenadeImpact"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJGrenadeAT"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJSatchelCharge"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJPrecisionCharge"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJGrenadeMini"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJGrenadeStick"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GHJGrenadeBundle"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+<!--
+
+visual space
+
+-->
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Eccentric Extras - Flares</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="EccentricChemlightRed"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="EccentricChemlightGreen"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="EccentricChemlightBlue"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="EccentricChemlightYellow"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="EccentricChemlightOrange"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="EccentricChemlightPurple"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Eccentric_Flare"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="EccentricChemlightDarklight"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+<!--
+
+visual space
+
+-->
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Grenades Expanded (Continued)</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+  <operations>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeArmageddon"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeInferno"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeDetonator"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeDynamite"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeStalk"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeFirecracker"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeStasis"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeWarhead"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeArmy"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeNapalm"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadePlasma"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeDeath"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeDisintegrator"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_HornetNest"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeToxic"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeAcid"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadePoison"]/verbs/li</xpath>
+    <value>
+        <requireLineOfSight>false</requireLineOfSight>
+    </value>
+  </li>
+
+  </operations>
+  </match>
+</Operation>
+
+<!--
+
+visual space
+
+-->
+
+</Patch>
